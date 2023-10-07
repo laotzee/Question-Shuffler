@@ -43,6 +43,8 @@ Use the following command to get cloned the repository on Linux:
 The main file can be executed with a python interpreter. A sample file is provided to test the program itself. 
 
 ## Screenshots
+![2023-10-07_16-16](https://github.com/laotzee/Question-Shuffler/assets/108775728/99996aa0-0377-4cd6-aba4-ae4dfe26102e)
+
 ## Contact
 If you have any questions, feedback, or would like to get in touch, please feel free to do so via email at Gonzalezdeabreu@gmail.com
 
