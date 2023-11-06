@@ -1,4 +1,4 @@
-# Questio-Shuffler
+# Question Shuffler
 Question Shuffler enhances the studying process by making it more active. It is a CLI python-based program, which takes a formatted .txt or .md file with question-answer pairs in it, and outputs the questions one by one waiting for the user to choose one of three different options.
 
 ## How does Questions Shuffler make learning more active?
