@@ -44,7 +44,7 @@ A .exe and an .AppImage are available under the folder "executables"
 
 ## Screenshots
 
-![questionDemo](https://github.com/user-attachments/assets/d75aaac1-d872-4237-aba7-5cdb4636b10a)
+![questionDemo](https://github.com/user-attachments/assets/f0aca3ad-7c1f-491c-a590-7c5da183bc76)
 
 ![answerDemo](https://github.com/user-attachments/assets/206b9229-f39b-415c-ba45-45e8bd6659c6)
 
