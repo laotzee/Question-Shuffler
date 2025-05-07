@@ -12,7 +12,7 @@ Instead of looking at a cheat sheet with information, the dynamic of the questio
 ### Opportunity to make mistakes
 Fliping the card inmediately is discouraged. The act of simply trying to come up with an answer from the user's own words, even if is not complete nor using proper vocabulary, helps tremendously by increasing the participation and the intuitive idea that is being presented. So, try to come up with an answer and check the card later.
 
-## Format of Text File
+## Format of CSV File
 The first line would be taken as the headings for the cards, while the rest of the entries would be treated as the cards themselves.
 
 ```
