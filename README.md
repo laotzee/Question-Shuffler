@@ -1,53 +1,69 @@
-# Question Shuffler
-Question Shuffler enhances the studying process by making it more active. It is a CLI python-based program, which takes a formatted .txt or .md file with question-answer pairs in it, and outputs the questions one by one waiting for the user to choose one of three different options.
+# Qffle
+Qffle enhances studying by making it more active. It is a GUI Python-based program that takes a CSV file with question-answer columns. The user is presented with the question side of the card first and prompted to answer either right or wrong, depending on whether the user can recall the answer. The answer side is available at any moment for reference. Wrongly guessed cards will go into the deck again. Once all cards are finished, the program returns a report of the session time and right and wrong answers. 
 
-## How does Questions Shuffler make learning more active?
+## How does Qffle make learning more active?
 
 ### Creating Good Questions
-The effectiveness of the program will be directly proportional to the quality of the questions the user create. So, by setting a subject or topic to study, the user has to investigate, gather,and analyze information about it. The better the information is digested or understood, the smarter the questions will be. Questions with short and specific answers are encouraged, it would turn the process more dynamic than having to answer a long answer, besides being harder to formulate such questions.
+The program's effectiveness will be directly proportional to the quality of the questions the user creates. By setting a subject or topic to study, the user has to investigate, gather and analyze information, and create the questions. The better the information is digested or understood, the smarter the questions will be. Questions with short and specific answers are encouraged, it would make the process more dynamic than having to answer a long answer, besides being harder to formulate such questions.
 
 ### Information Retrieval
-Instead of looking at a cheat sheet with information, the dynamic of the questions presents the opportunity to pull information from the user's memory which is more active. The more the information is retrieved, the connections in the brain are stronger. This means that the access to said information would be faster and it is less likely to forget.
+Instead of looking at a cheat sheet with information, the dynamic of the questions presents the opportunity to pull information from the user's memory which is more active. The more information is retrieved, the more connections in the brain are stronger. This means that access to said information would be faster and it is less likely to be forgotten.
 
 ### Opportunity to make mistakes
-While not answer is shown to the user, they have to work on retrieving the information required. In the case of not knowing the answer for whatever reason, the user can check the actual answer and rectify. The act of simply trying to come up with with an answer from the user's own words, even if is not complete nor using proper vocabulary, helps tremendously by increasing the participation and the intuitive idea that is being presented. 
-
-## Options
-- **Answer**: it displays to the present questions and skip to the next one
-- **Enter**: will display for the next question 
-- **Quit**: will end the program
+Fliping the card inmediately is discouraged. The act of simply trying to come up with an answer from the user's own words, even if is not complete nor using proper vocabulary, helps tremendously by increasing the participation and the intuitive idea that is being presented. So, try to come up with an answer and check the card later.
 
 ## Format of Text File
-*The question-answer pair must be on the same line for the program.*
-The format for the file would be as follows:
+The first line would be taken as the headings for the cards, while the rest of the entries would be treated as the cards themselves.
 
 ```
-**Question** Answer
-**Question** Answer
-**Question** Answer
-
----
- 
-Additional information
-Additional information
-Additional information
+Question heading, Answer heading
+Question, Answer
+Question, Answer
+Question, Answer
+Question, Answer
+Question, Answer
+Question, Answer
+Question, Answer
 ```
 
-Whatever is after the 3 dashes will not be consider for the process of creating the questions, it only serves the purpose of having an additional space for notes. Neither the dashes nor the additional information are required, but recommended for future user reference. 
+There is a max and recommended amount of characters for the headings and the body of the cards to avoid going over the borders.
+
+|         |Recommended|Max|
+|---------|----------------|---------------|
+|Headings| 10 characters|15 characters|
+|Body| 100 characters|120 characters|
 
 ## How to use
-Use the following command to get cloned the repository on Linux:
+Use the following command to clone the repository
 
 `git clone https://github.com/laotzee/Question-Shuffler.git`
 
-The main file can be executed with a python interpreter. A sample file is provided to test the program itself. 
+You can run the main.py with a Python3 interpreter.
+
+A .exe and an .AppImage are available under the folder "executables"
 
 ## Screenshots
-![2023-10-07_16-16](https://github.com/laotzee/Question-Shuffler/assets/108775728/99996aa0-0377-4cd6-aba4-ae4dfe26102e)
+
+![questionDemo](https://github.com/user-attachments/assets/d75aaac1-d872-4237-aba7-5cdb4636b10a)
+
+![answerDemo](https://github.com/user-attachments/assets/206b9229-f39b-415c-ba45-45e8bd6659c6)
+
+![germanDemo](https://github.com/user-attachments/assets/782f1164-c7b2-4b62-bc8b-8799f2834293)
+
+![englishDemo](https://github.com/user-attachments/assets/a1adaa35-eac7-40cb-bf7c-0a62252310c3)
+
+## Resources
+
+By default, the program will only take 30 questions from a given file. Such a number can be changed inside the cards.py file by altering the constant READ_MAX.
+
+Inside the resource folder, there are two files as demos. 
+
+- test.csv: dummy file for displaying the max amount of characters
+- most_used_german_words.csv: contains the 50000 most used German words and their English translation. Despite not being implemented yet, there is a column for counting the frequency of the user's correct answer and the frequency of the German words themselves.
 
 ## Contact
-If you have any questions, feedback, or would like to get in touch, please feel free to do so via email at Gonzalezdeabreu@gmail.com
+If you have any questions, or feedback, or would like to get in touch, please feel free to do so via email at contact@laotze.net
 
 ## Credits
-The present project has been inspired by the book of Barbara Oakley "Learning like a Pro", specifically the passage where active learning and retrieval is discussed. The author not only provides a wide range of books on learning, but co-created the MOOC "Learning How to Learn: Powerful Mental Tools to Help You Master Tough Subjects". 
+The present project has been inspired by the book of Barbara Oakley "Learning Like a Pro", specifically the passage where active learning and retrieval is discussed. The author not only provides a wide range of books on learning, but co-created the MOOC "Learning How to Learn: Powerful Mental Tools to Help You Master Tough Subjects". 
 
