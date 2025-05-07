@@ -43,14 +43,13 @@ You can run the main.py with a Python3 interpreter.
 A .exe and an .AppImage are available under the folder "executables"
 
 ## Screenshots
+![questionDemo](https://github.com/user-attachments/assets/759c2a58-1bd6-4712-8a9d-b5cbd319150a)
 
-![questionDemo](https://github.com/user-attachments/assets/f0aca3ad-7c1f-491c-a590-7c5da183bc76)
+![answerDemo](https://github.com/user-attachments/assets/f0b2d6fb-e18e-43b1-87d6-d0f3457be343)
 
-![answerDemo](https://github.com/user-attachments/assets/206b9229-f39b-415c-ba45-45e8bd6659c6)
+![germanDemo](https://github.com/user-attachments/assets/49635b96-e587-4389-a4ac-2856222b7891)
 
-![germanDemo](https://github.com/user-attachments/assets/782f1164-c7b2-4b62-bc8b-8799f2834293)
-
-![englishDemo](https://github.com/user-attachments/assets/a1adaa35-eac7-40cb-bf7c-0a62252310c3)
+![englishDemo](https://github.com/user-attachments/assets/95cd9af0-d848-4d59-8e22-8427d4c02080)
 
 ## Resources
 
