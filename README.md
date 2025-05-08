@@ -36,7 +36,7 @@ There is a max and recommended amount of characters for the headings and the bod
 ## How to use
 Use the following command to clone the repository
 
-`git clone https://github.com/laotzee/Question-Shuffler.git`
+`git clone git@github.com:laotzee/Qffle.git`
 
 You can run the main.py with a Python3 interpreter.
 
