@@ -16,14 +16,14 @@ Fliping the card inmediately is discouraged. The act of simply trying to come up
 The first line would be taken as the headings for the cards, while the rest of the entries would be treated as the cards themselves.
 
 ```
-Question heading, Answer heading
-Question, Answer
-Question, Answer
-Question, Answer
-Question, Answer
-Question, Answer
-Question, Answer
-Question, Answer
+Question heading,Answer heading
+Question,Answer
+Question,Answer
+Question,Answer
+Question,Answer
+Question,Answer
+Question,Answer
+Question,Answer
 ```
 
 There is a max and recommended amount of characters for the headings and the body of the cards to avoid going over the borders.
